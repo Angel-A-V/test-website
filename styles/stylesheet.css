@@ -1,6 +1,35 @@
+* { /* This is the universal selector it effects all html */
+    /* This resets margin and padding that are enabled by default */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
 h1.introh1 {
-    color: blueviolet;
+    display :  block;
+    /* colors */
+    background-color: #ffffff;
+    color: #000000;
+
+    /* text */
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times;
     font-size: 35px;
+
+    /* border styling */
+    border: 3px solid rgba(71, 67, 66, 0.8);
+    border-radius: 50px;
+    width: fit-content;
+    height: auto;
+    padding: 10px 4px;
+    margin: auto;
+}
+
+p.text1{
+    color: #ffffff;
+    font-family:'Times New Roman', Times;
 }
